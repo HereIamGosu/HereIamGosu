@@ -1,7 +1,7 @@
 <h1 align="center">Gosu</h1>
 
 <p align="center">
-  Practical software engineer building small, focused tools for networking, automation, desktop workflows, and developer productivity.
+  I make small products and tools when something seems useful, interesting, or annoying enough to fix.
 </p>
 
 <p align="center">
@@ -14,18 +14,7 @@
 
 ---
 
-## Focus
-
-I build practical tools that turn fragile manual workflows into repeatable software:
-
-- web tools and HTTP APIs for configuration generation;
-- Windows desktop utilities around Android TV, ADB, and scrcpy;
-- developer tooling for structured documentation workflows;
-- small product-grade utilities with tests, releases, and clear documentation.
-
----
-
-## Featured Projects
+## Projects
 
 ### AmneziaWG Config Generator
 
@@ -50,11 +39,11 @@ Web UI and HTTP API for generating AmneziaWG client configurations, with Cloudfl
 **Status:** active open source project  
 **Links:** [repository](https://github.com/HereIamGosu/amnezia-config-gen) · [generator](https://valokda-amnezia.vercel.app/) · [project page](https://hereiamgosu.github.io/amnezia-config-gen/)
 
-Key engineering points:
+What it does:
 
 - generates `.conf` profiles through a browser UI and API;
-- includes CI, template tests, health checks, releases, and documentation;
-- keeps configuration generation reproducible instead of relying on manual setup.
+- supports AmneziaWG / Cloudflare WARP-oriented configuration flows;
+- includes tests, CI, health checks, releases, and documentation.
 
 ---
 
@@ -78,11 +67,11 @@ Windows desktop GUI for Android TV / Google TV ADB pairing, wireless connection,
 **Status:** desktop utility with release build  
 **Links:** [repository](https://github.com/HereIamGosu/android-tv-adb-control-center) · [releases](https://github.com/HereIamGosu/android-tv-adb-control-center/releases)
 
-Key engineering points:
+What it does:
 
-- wraps Android TV debugging workflows in a readable GUI;
-- focuses on pairing, diagnostics, installation, and device control;
-- has a Windows build workflow for distributable executable releases.
+- pairs and connects Android TV / Google TV devices over ADB;
+- launches scrcpy and common device actions from a Windows GUI;
+- provides readable diagnostics instead of raw command-line noise.
 
 ---
 
@@ -108,38 +97,19 @@ VS Code extension for renumbering `FR` and `NFR` requirements in Markdown specif
 
 ---
 
-## Additional Work
-
-| Project | What it is | Stack |
-|---|---|---|
-| [Petrulio: The Game](https://github.com/HereIamGosu/Petrulio-the-game) | 2D platformer with parallax backgrounds, enemies, coins, and day-night cycle | Python, Pygame |
-
----
-
-## Engineering Interests
-
-- Networking tools and configuration generators
-- Windows desktop automation
-- Android TV and ADB workflows
-- Developer experience tooling
-- Documentation automation
-- Small products with real releases and tests
-
----
-
-## Tech I Use
+## Stack
 
 | Area | Tools |
 |---|---|
 | Web / API | JavaScript, Node.js, HTML, CSS, Vercel |
 | Desktop | Python, PySide6, Windows tooling |
-| Developer tooling | TypeScript, VS Code Extension API |
-| Automation | GitHub Actions, release workflows, test suites |
+| Editor tooling | TypeScript, VS Code Extension API |
+| Automation | GitHub Actions, tests, release workflows |
 | Domains | AmneziaWG, Cloudflare WARP, ADB, scrcpy |
 
 ---
 
-## GitHub Signal
+## GitHub
 
 <p>
   <img height="165" alt="GitHub stats" src="https://github-readme-stats.vercel.app/api?username=HereIamGosu&show_icons=true&hide_title=true&hide_border=true&theme=transparent">
@@ -148,11 +118,7 @@ VS Code extension for renumbering `FR` and `NFR` requirements in Markdown specif
 
 ---
 
-## Contact
-
-The best way to evaluate my work is through the repositories above: each project is documented, source-visible, and designed around a concrete workflow.
-
-<p>
+<p align="center">
   <a href="https://github.com/HereIamGosu">
     <img alt="GitHub" src="https://img.shields.io/badge/GitHub-HereIamGosu-181717?logo=github&logoColor=white">
   </a>
