@@ -97,18 +97,6 @@ VS Code extension for renumbering `FR` and `NFR` requirements in Markdown specif
 
 ---
 
-## Stack
-
-| Area | Tools |
-|---|---|
-| Web / API | JavaScript, Node.js, HTML, CSS, Vercel |
-| Desktop | Python, PySide6, Windows tooling |
-| Editor tooling | TypeScript, VS Code Extension API |
-| Automation | GitHub Actions, tests, release workflows |
-| Domains | AmneziaWG, Cloudflare WARP, ADB, scrcpy |
-
----
-
 ## GitHub
 
 <p>
