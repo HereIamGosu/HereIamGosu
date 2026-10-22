@@ -18,7 +18,7 @@
 
 ### AmneziaWG Config Generator
 
-Web UI and HTTP API for generating AmneziaWG client configurations, with Cloudflare WARP-oriented flows and domain-based routing presets.
+Web UI and HTTP API for generating AmneziaWG / WireGuard client configurations on top of a freshly registered Cloudflare WARP device, with split-tunnelling route presets, DNS presets and CPS obfuscation packets.
 
 <p>
   <a href="https://github.com/HereIamGosu/amnezia-config-gen">
@@ -35,15 +35,16 @@ Web UI and HTTP API for generating AmneziaWG client configurations, with Cloudfl
   </a>
 </p>
 
-**Stack:** JavaScript, Node.js, Web API, Vercel, GitHub Actions  
-**Status:** active open source project  
-**Links:** [repository](https://github.com/HereIamGosu/amnezia-config-gen) · [generator](https://valokda-amnezia.vercel.app/) · [project page](https://hereiamgosu.github.io/amnezia-config-gen/)
+**Stack:** JavaScript, Node.js, Docker, nginx, GitHub Actions, GHCR  
+**Status:** active open source project, live at awgconfig.com  
+**Links:** [repository](https://github.com/HereIamGosu/amnezia-config-gen) · [generator](https://awgconfig.com/) · [English version](https://awgconfig.com/en)
 
 What it does:
 
-- generates `.conf` profiles through a browser UI and API;
-- supports AmneziaWG / Cloudflare WARP-oriented configuration flows;
-- includes tests, CI, health checks, releases, and documentation.
+- generates `.conf` profiles through a browser UI and API, in Russian and English;
+- builds AmneziaWG 2.0 configs for Cloudflare WARP with the parameters the WARP peer requires, and `vpn://` links for the Amnezia client;
+- offers route and DNS presets, mobile and router modes, and custom CPS packet chains;
+- ships with invariant tests, CI that publishes a Docker image, and automatic blue/green deploys to a VPS.
 
 ---
 
